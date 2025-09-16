@@ -1,0 +1,92 @@
+body{
+        background: linear-gradient(to right, #8e0e00, #1f1c18);
+        text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    font-family:monospace;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #626364;
+    margin-bottom: 30px;
+    margin: 30px auto;
+    border: solid;
+    display: inline-block;
+    background: linear-gradient(to right,#e0eafca1,rgba(185, 187, 186, 0.925));
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    box-shadow: 2px 2px 5px #d40667;
+    border-radius: 20px;
+    border: solid;
+    background: linear-gradient(to right,#E0EAFC,#CFDEF3)
+
+}
+li{
+    font-weight: bold;
+    text-align: left;
+}
+
+.contenedor{
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.658);
+    border-radius: 50px;
+    
+}
+
+.tablero1{
+    margin: 10px;
+    border: 2px solid rgb(66, 65, 65);
+    background: linear-gradient(to bottom, #cfcfcfb0, #999999ad);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 250px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+
+
+}
+.tablero2{
+    margin: 10px;
+    border: 2px solid rgb(66, 65, 65);
+    background: linear-gradient(to bottom, #cfcfcfb0, #999999ad);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 250px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.5);
+}
+.tablero3{
+    margin: 10px;
+    border: 2px solid rgb(66, 65, 65);
+    background: linear-gradient(to bottom, #cfcfcfb0, #999999ad);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 300px;
+    box-shadow: 8px 8px 14px rgba(0,0,0,0.6);
+}
+a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #1f1c18;
+    display: inline-block;
+    border: solid;
+    border-radius: 50px;
+    margin-top: 45px;
+    background-color: rgba(117, 117, 117, 0.671);
+    margin-right: 10px;
+    text-align: left;
+    font-family: fantasy;
+
+}
+a:hover{
+    background: linear-gradient(#37a4d6e5, #0ab372e0);
+
+}
+.tablero:hover{
+    background: linear-gradient(#747575e5, #e5e7e7e8);
+}
